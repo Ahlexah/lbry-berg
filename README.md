@@ -22,7 +22,9 @@ There is also the option when starting on how many books, to save on either band
 `Download and publish the next 500 books from the last uploaded file, and do this for every file.`
 
 [n] - being optional on how many to download in this particular run of the script. 0 is continuous.
-[-e|-h|-t|-a] - Select PDF, HTML, TXT or All.
+
+
+[-e|-h|-t|-a] - Select ePUB, HTML, TXT or All file types.
 
 Future releases:
 
