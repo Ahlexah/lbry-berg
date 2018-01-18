@@ -13,11 +13,29 @@ There is also the option when starting on how many books, to save on either band
 
 (Planned) example of use:
 
-python lbry-gut [n]
+    python lbry-gut 0 -e
 
-[n] being optional on how many to download in this particular run of the script.
+`Download and publish until the script is cancelled or finished, download only .EPUB files`
+
+    python lbry 500 -a
+
+`Download and publish the next 500 books from the last uploaded file, and do this for every file.`
+
+[n] - being optional on how many to download in this particular run of the script. 0 is continuous.
+[-e|-h|-t|-a] - Select PDF, HTML, TXT or All.
+
+Future releases:
+
+    python lbry 500 -a C:\Desktop\lbry-berg
+
+`This is not the highest priority for this initial release - however this will be a feature that can be developed later.`
+
 
 Disclaimer:
+
 Upon downloading this software, you are accepting that you are liable for whatever happens due to misuse of
 of the program. 
+
+There is no tracker on how much storage this will use or has used. If no directory is set, it will be downloaded to the
+programs' directory - it is advisable that you ensure this is not your desktop folder. For simplicity.
 
