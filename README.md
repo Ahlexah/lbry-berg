@@ -13,11 +13,11 @@ There is also the option when starting on how many books, to save on either band
 
 (Planned) example of use:
 
-    python lbry-gut 0 -e
+    python lbry-berg 0 -e
 
 `Download and publish until the script is cancelled or finished, download only .EPUB files`
 
-    python lbry 500 -a
+    python lbry-berg 500 -a
 
 `Download and publish the next 500 books from the last uploaded file, and do this for every file.`
 
@@ -39,3 +39,5 @@ of the program.
 There is no tracker on how much storage this will use or has used. If no directory is set, it will be downloaded to the
 programs' directory - it is advisable that you ensure this is not your desktop folder. For simplicity.
 
+This program is not affiliated or endorsed with Project Gutenberg, though do be sure to go 
+visit them here -> http://www.gutenberg.org/
