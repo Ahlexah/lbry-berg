@@ -1,7 +1,7 @@
-lbry-berg(*) - Project Gutenberg importer/publisher.
-====
+lbry-berg - Project Gutenberg importer/publisher.
+===
 
-# Importing Gutenberg's open files to LBRY's blockchain.
+Importing Gutenberg's open files to LBRY's blockchain.
 
 Dependencies upon running: (coming soon)
 
